@@ -1,4 +1,4 @@
-public class Engine implements Driver {
+public class Engine implements EngineRequirements {
     double currentFuel;
     double maxFuel;
     private String FuelType;
