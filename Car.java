@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Car implements Carriage {
+public class Car implements CarRequirements {
     private ArrayList<Passenger> passengers = new ArrayList<String>();
     private int maxCapacity;
 
