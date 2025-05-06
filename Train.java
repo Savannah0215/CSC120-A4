@@ -1,4 +1,4 @@
-public class Train implements Locomotive{
+public class Train implements TrainRequirements {
     private int fuelType;
     private double fuelCapacity;
     private int nCars;
